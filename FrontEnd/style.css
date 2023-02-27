@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font: Lexend Deca;
+}
+header{
+    background: linear-gradient(to right,#574AE8, #3EA1DB);
+    padding: 41px 0;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color:#717171;
+    font-size: 16px;
+}
+
+body{
+    background: #F3F5F7;
+}
+
+.barra-pequisa{
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 94px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.menu-pesquisa-img{
+    margin-left: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-pesquisa{
+    border: 0;
+    background: transparent;
+    padding: 21px 20px 22px;
+    flex-wrap: wrap;
+}
+/*-------------Blocos ------------------*/
+.bloco{
+    border:0;
+    background: #fff;
+    padding: 0 25px 25px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+.bloco-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+}
+/*.quadrado{
+    height: 32px;
+    width: 32px;
+    background: black;
+}*/
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.bg-red{
+    background: red;
+}
+.bg-blue{
+    background: blue;
+}
+.bg-yellow{
+    background: yellow;
+}
+.bg-green{
+    background: green;
+}
